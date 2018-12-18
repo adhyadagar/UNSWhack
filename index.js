@@ -18,7 +18,7 @@ app.get('/',(req,res)=>{
     datetimeHash = sha256(datetime)
     console.log(datetime)
 
-    res.sendfile('form.html')
+    res.sendfile('india.html')
 
 
 })
